@@ -16,7 +16,7 @@ external_client = AsyncOpenAI(
 )
 
 model = OpenAIChatCompletionsModel(
-    model="openai/gpt-oss-120b:free",
+    model="nvidia/nemotron-3-super-120b-a12b:free",
     openai_client=external_client
 )
 
